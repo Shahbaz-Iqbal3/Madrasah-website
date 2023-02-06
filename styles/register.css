@@ -15,6 +15,7 @@ body{
     border-radius: 11px;
     padding: 60px;
     position: relative;
+    text-align: center;
 }
 .container .logo{
     margin-bottom: 20px;
@@ -48,6 +49,13 @@ input:focus {
 .btn{
     width: calc(3 * 100px);
     margin: 0 auto;
+}
+.btn-f{
+    width: auto!important;
+}
+p{
+    margin-bottom: 30px;
+    text-transform: capitalize;
 }
 @media(max-width:450px){
     .container{

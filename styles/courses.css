@@ -1,0 +1,252 @@
+h1 {
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 60px;
+    color: var(--secd-bg-black);
+    text-transform: capitalize;
+}
+
+.section {
+    padding: 20px 60px;
+    width: 100%;
+}
+
+.section.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section.links .sec-box {
+    background: var(--secd-bg-white);
+    padding: 30px 60px;
+}
+
+.section.links .sec-box a {
+    font-size: 19px;
+    padding: 10px 20px;
+    background-color: var(--secd-bg-black);
+    color: white;
+    border-radius: 7px;
+}
+
+.section.links .sec-box a:hover {
+    color: rgb(206, 206, 206);
+}
+
+.section h2 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    color: var(--secd-bg-black);
+    text-transform: capitalize;
+}
+
+.sec1 {
+    height: 600px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--secd-bg-white);
+    overflow: hidden;
+}
+
+.sec1 .sec1-box1 {
+    flex-basis: 55%;
+    position: relative;
+}
+
+.sec1 .sec1-box1 h1 {
+    font-size: 48px;
+    font-weight: 500;
+    font-family: 'Lexend Deca', sans-serif;
+    text-transform: capitalize;
+    display: inline;
+}
+
+.sec1 .sec1-box1 p {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+    padding-right: 90px;
+    margin-bottom: 30px;
+}
+
+.sec1-box1 img {
+    width: 145%;
+    opacity: 0.1;
+    top: -400px;
+    left: 280px;
+    position: absolute;
+    filter: blur(1px);
+}
+
+.sec1 .sec1-box2 {
+    flex-basis: 45%;
+    position: relative;
+}
+
+.sec2 .courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+.sec2 .courses .course-item {
+    width: 280px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.sec2 .courses .course-item:hover {
+    box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.3);
+
+}
+
+.sec2 .courses .course-item .img-course {
+    height: 170px;
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow: hidden;
+}
+
+.sec2 .courses .course-item .img-course img {
+    height: fit-content;
+    width: 100%;
+}
+
+.sec2 .courses .course-item .text-course {
+    padding: 5px 20px 20px 20px;
+}
+
+.sec2 .courses .course-item .text-course h3 {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: var(--secd-bg-black);
+}
+
+.sec2 .courses .course-item .text-course p {
+    margin-bottom: 10px;
+    color: var(--secd-bg-black);
+}
+
+.foot-course {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot-course .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: var(--secd-bg-green);
+}
+
+.foot-course .btn:hover {
+    background: var(--secondry);
+    color: white;
+}
+
+.foot-course .btn:hover .studenticon1 {
+    display: block;
+}
+
+.foot-course .btn:hover .studenticon {
+    display: none;
+}
+
+.foot-course .btn img {
+    height: 28px;
+    margin-right: 10px;
+}
+
+.foot-course .btn .studenticon1 {
+    filter: invert(100);
+    display: none;
+}
+
+.foot-course .fee-status {
+    font-size: 18px;
+    color: var(--secd-bg-green);
+
+}
+
+@media(max-width:1024px) {
+
+    .sec1 .sec1-box1 h1,
+    h1 {
+        font-size: 35px;
+    }
+
+    .sec1 .sec1-box1 p,
+    p,
+    .btn,
+    .section.links .sec-box a {
+        font-size: 14px;
+    }
+
+    .sec1 {
+        height: 420px;
+    }
+
+    .section.links .sec-box {
+        padding: 25px 30px;
+    }
+}
+
+@media(max-width:780px) {
+    .sec1 {
+        padding: 0 15px;
+    }
+
+    .section {
+        padding: 20px 10px;
+        width: 100%;
+    }
+
+    .section.links .sec-box {
+        padding: 10px 20px;
+    }
+
+}
+
+@media(max-width:450px) {
+
+    .sec1 .sec1-box2,
+    .sec1-box1 img {
+        display: none;
+    }
+
+    .sec1 .sec1-box1 {
+        flex-basis: 100%;
+    }
+
+    .section.links {
+        flex-wrap: wrap;
+    }
+    .sec1 .sec1-box1 h1,
+    h1,.section h2{
+        font-size: 25px;
+    }
+    .sec1 .sec1-box1 p{
+        padding-right: 20px;
+        margin: 15px 0;
+    }
+    .sec2 .courses .course-item .text-course h3{
+        font-size: 20px;
+    }
+    
+}

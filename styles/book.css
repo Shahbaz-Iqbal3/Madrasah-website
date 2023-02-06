@@ -1,0 +1,281 @@
+@import "colors.css";
+
+.section {
+    padding: 0 60px;
+    padding-bottom: 60px;
+}
+
+.sec-1 {
+    height: 500px;
+    background: var(--secd-bg-white);
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sec1-box1 {
+    margin-right: 60px;
+
+}
+
+.sec1-box1 .img-thm img {
+    height: 350px;
+}
+
+.sec1-box2 {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.sec1-box2 h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.sec1-box2 p {
+    margin-bottom: 20px;
+    width: 450px;
+}
+
+.sec-2 {
+    display: flex;
+    padding-top: 60px;
+}
+
+.sec-2 .sec2-box1 {
+    flex-basis: 70%;
+    margin: 0 60px;
+    width: 100%;
+}
+
+.sec-2 .sec2-box1 .quranpdfbx {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 130%;
+}
+
+.sec-2 .sec2-box1 .quranpdfbx .iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sec-2 .sec2-box2 {
+    flex-basis: 20%;
+}
+
+.sec-2 .sec2-box2 .card-book {
+    background: var(--secd-bg-white);
+    width: 270px;
+    padding: 10px;
+    border-radius: 17px;
+    margin-bottom: 20px;
+}
+
+.sec-2 .sec2-box2 .card-book .title-card {
+    padding: 0 5px;
+    margin-top: 10px;
+}
+
+.sec-2 .sec2-box2 .card-book .title-card h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sec-2 .sec2-box2 .card-book .image-card {
+    height: 350px;
+    border-radius: 17px;
+    overflow: hidden;
+}
+
+.sec-2 .sec2-box2 .card-book .image-card img {
+    width: 250px;
+
+}
+
+.section7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: var(--secd-bg-white);
+}
+
+.section h2 {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--secd-bg-black);
+    text-transform: capitalize;
+    margin-top: 60px;
+}
+
+.section7 p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.section7 .subcribe-form {
+    margin-top: 40px;
+}
+
+.section7 .subcribe-form input {
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+    border-radius: 10px;
+}
+
+.section7 .subcribe-form input:focus {
+    border: 1px solid var(--secd-bg-black);
+}
+
+.section7 .subcribe-form .btn {
+    background: var(--secd-bg-black);
+    color: white;
+    border: 1px solid var(--secd-bg-black);
+    margin-left: 10px;
+}
+
+.section7 img {
+    width: 70px;
+    position: absolute;
+}
+
+.section7 .img1 {
+    top: 70px;
+    left: 140px;
+}
+
+.section7 .img2 {
+    top: 70px;
+    right: 140px;
+}
+
+.section7 .img3 {
+    top: 270px;
+    left: 250px;
+}
+
+.section7 .img4 {
+    top: 270px;
+    right: 250px;
+
+}
+
+@media(max-width:1024px) {
+    .sec-2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sec-2 .sec2-box2 {
+        gap: 20px;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .section7 .img1,
+    .section7 .img2,
+    .section7 .img3,
+    .section7 .img4 {
+        display: none;
+    }
+
+}
+
+@media(max-width:1024px) {
+    .sec-2 .sec2-box1 {
+        flex-basis: 100%;
+        margin: 0 0;
+    }
+}
+@media(max-width:780px){
+    .sec-1{
+        padding: 0 30px;
+    }
+    .sec1-box1 {
+        margin-right: 25px;
+    }
+}
+@media(max-width:480px){
+    .section{
+        padding: 0 10px;
+    }
+    .sec-1{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .sec1-box1 .img-thm img{
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .sec1-box2 h2{
+        font-size: 30px;
+        margin: 0 0 0 0;
+    }
+    .sec1-box2,.sec1-box2 p{
+        width: 95%;
+    }
+    .sec-2 .sec2-box2 .card-book .image-card{
+        height: 200px;
+    }
+    .sec-2 .sec2-box2 .card-book .image-card img {
+        width: 100%;
+    }
+    .sec-2 .sec2-box2 .card-book .image-card {
+        height: 210px;
+    }
+    .sec-2 .sec2-box2 .card-book{
+        width: 170px;
+    }
+    .sec-2 .sec2-box2 .card-book .title-card h3{
+        font-size: 18px;
+    }
+    .section7{
+        padding-bottom: 30px;
+    }
+    .section h2{
+        font-size: 25px;
+    }
+    .section7 p{
+        font-size: 14px;
+    }
+    .section7 .subcribe-form input,.section7 .subcribe-form .btn{
+        font-size: 15px;
+    }
+}
+@media(max-width:380px){
+    .sec-2 .sec2-box2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section7 .subcribe-form form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .section7 p{
+        font-size: 16px;
+    }
+}

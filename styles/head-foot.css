@@ -273,7 +273,7 @@ footer .links-footer {
 }
 @media(max-width:320px){
     .header-nav ul li{
-        margin-right: 9px;
+        margin-right: 8px;
     }
     .header-nav ul li a{
         font-size: 13px;

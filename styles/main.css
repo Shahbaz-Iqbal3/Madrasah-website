@@ -602,13 +602,19 @@
     .section1 .text-sec1{
         flex-basis: 100%;
     }
+    .section1 .text-sec1 .btn-sec1-1{
+        margin-left: 8px;
+    }
+    .section1 .text-sec1 .btn{
+        padding: 7px 9px;
+    }
     .section1 {
         height: 366px;
     }
     .section h2{
         font-size: 20px;
     }
-    .text-testi{
+    .text-testi,.section{
         padding: 10px;
     }
     .text-testi h3{
@@ -645,19 +651,20 @@
     .section7 p,.section7 .subcribe-form input,.section7 .subcribe-form .btn{
         font-size: 14px;
     }
-}
-@media(max-width:320px){
     .section7 .subcribe-form{
         text-align: center;
-    }
-    .section7 .subcribe-form input{
+    }.section7 .subcribe-form input{
         margin-bottom: 10px;
     }
+}
+@media(max-width:320px){
+    
+    
     .section6 h1{
         font-size: 19px;
     }
     .section{
-        padding: 15px;
+        padding: 9px;
     }
     .icon-boxs .icon-box{
         width: 120px;
@@ -665,5 +672,8 @@
     }
     .btn,.section1 .text-sec1 .btn{
         padding: 7px 0;
+    }
+    .section1 .text-sec1 .btn a{
+        padding: 7px 10px;
     }
 }

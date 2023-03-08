@@ -3,7 +3,6 @@ const dynamicCacheName = 'site-dynamic-v4';
 const assets = [
   '/',
   '/index.html',
-  '/404.html',
   '/manifest.json',
   '/scripts/index.js',
   '/styles/head-foot.css',

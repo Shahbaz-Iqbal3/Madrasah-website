@@ -1,0 +1,38 @@
+{
+  "name": "Ershad-e-Madina Academy Online",
+  "short_name": "emAcademy",
+  "description": "The Qur'an indicate that knowledge and education is important for all Muslims in order for them to fulfil their duties and obligations to Allah and humanity.",
+  "start_url": "/index.html",
+  "id": "/index.html",
+  "display": "standalone",
+  "background_color": "#F5F9FC",
+  "theme_color": "#0BAB64",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/icons/dome 32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/images/icons/dome 64x64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "/images/icons/dome 128x128.png",
+      "type": "image/png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/images/icons/dome 256x256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/images/icons/dome 512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

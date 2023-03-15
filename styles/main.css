@@ -72,9 +72,9 @@
 .section1 .image-sec1 .bg-image {
     position: absolute;
     top: -120px;
-    left: -150px;
+    left: -50px;
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
     transform: scale(1.5);
     filter: opacity(0.1) blur(1px);
     z-index: -1;

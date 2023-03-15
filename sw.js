@@ -3,6 +3,7 @@ const dynamicCacheName = 'site-dynamic-v4';
 const assets = [
   '/',
   '/index.html',
+  '/quran.pdf',
   '/manifest.json',
   '/scripts/index.js',
   '/styles/head-foot.css',

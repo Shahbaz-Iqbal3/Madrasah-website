@@ -1,6 +1,6 @@
 // If absolute URL from the remote server is provided, configure the CORS
 // header on that server.
-var url = 'https://pwa-emacademy.netlify.app/quran.pdf';
+var url = '/quran.pdf';
 
 // Loaded via <script> tag, cre  ate shortcut to access PDF.js exports.
 var pdfjsLib = window['pdfjs-dist/build/pdf'];
@@ -118,4 +118,6 @@ pdfjsLib.getDocument(url).promise.then(function (pdfDoc_) {
 
      // Initial/first page rendering
      renderPage(pageNum);
-});
+}).catch(function () {
+     console.log("eroor");
+})

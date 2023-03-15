@@ -17,7 +17,9 @@ const assets = [
   'https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2',
   'https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2',
   'https://fonts.gstatic.com/s/lexenddeca/v17/K2F1fZFYk-dHSE0UPPuwQ5qnJy8.woff2',
-  '/pages/fallback.html'
+  '/404.html',
+  '/styles/coming.css',
+  "/images/plan.gif"
 ];
 
 // cache size limit function
@@ -71,9 +73,10 @@ self.addEventListener('fetch', evt => {
         });
       }).catch(() => {
         if(evt.request.url.indexOf('.html') > -1){
-          return caches.match('/pages/404.html');
+          return caches.match('/404.html');
         } 
       })
     );
   }
+
 });
